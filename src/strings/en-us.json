@@ -595,6 +595,7 @@
   "LabelColorTransfer": "Color transfer",
   "LabelCommunityRating": "Community rating",
   "LabelContentType": "Content type",
+  "LabelContinueWatchingDeleteTimeHelp" : "The time until a item will be removed from continue watching. Default is 0 (disabled).",
   "LabelCorruptedFrames": "Corrupted frames",
   "LabelCountry": "Country",
   "LabelCreateHttpPortMap": "Enable automatic port mapping for HTTP traffic as well as HTTPS.",

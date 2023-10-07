@@ -10,6 +10,7 @@ function loadPage(page, config) {
     $('#txtMinAudiobookResume', page).val(config.MinAudiobookResume);
     $('#txtMaxAudiobookResume', page).val(config.MaxAudiobookResume);
     $('#txtMinResumeDuration', page).val(config.MinResumeDurationSeconds);
+    $('#txtContinueWatchingDeleteTime', page).val(config.ContinueWatchingDeleteTime);
     loading.hide();
 }
 
@@ -22,6 +23,7 @@ function onSubmit() {
         config.MinAudiobookResume = $('#txtMinAudiobookResume', form).val();
         config.MaxAudiobookResume = $('#txtMaxAudiobookResume', form).val();
         config.MinResumeDurationSeconds = $('#txtMinResumeDuration', form).val();
+        config.ContinueWatchingDeleteTime = $('#txtContinueWatchingDeleteTime', form).val();
 
         ApiClient.updateServerConfiguration(config).then(Dashboard.processServerConfigurationUpdateResult);
     });

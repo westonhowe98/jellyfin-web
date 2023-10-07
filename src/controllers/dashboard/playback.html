@@ -35,6 +35,12 @@
                         ${LabelMinResumeDurationHelp}
                     </div>
                 </div>
+                <div class="inputContainer">
+                    <input is="emby-input" type="number" id="txtContinueWatchingDeleteTime" name="txtContinueWatchingDeleteTime" pattern="[0-9]*" min="0" label="Continue Watching Delete Time"></input>
+                    <div class="fieldDescription">
+                      ${LabelContinueWatchingDeleteTimeHelp}
+                    </div>
+                  </div>
                 <div><button is="emby-button" type="submit" class="raised button-submit block"><span>${Save}</span></button></div>
             </form>
         </div>
